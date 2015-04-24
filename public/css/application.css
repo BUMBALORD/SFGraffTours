@@ -1,0 +1,163 @@
+/** {
+  border: solid 1px blue;
+}*/
+
+#wrapper {
+  height: 100%;
+  width: 50%;
+
+}
+
+a:link {
+  float: left;
+  margin-left: 425px;
+  margin-top: 200px;
+}
+
+a[href^="http://maps.google.com/maps"]{display:none !important}
+
+.gmnoprint a, .gmnoprint span {
+    display:none;
+}
+
+.gm-style-iw {
+  width: 50px;
+  height: 50px;
+  font-family: 'Orbitron', sans-serif;
+  box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.1);
+}
+
+#header {
+  width: 600px;
+  height: 150px;
+ /* background-color: #9494B8;
+*/  border-radius: 17px;
+  margin-left: 420px;
+  margin-right: auto;
+ /* border: 5px solid #8585AD;
+  box-shadow: 20px 20px 30px 20px rgba(0,0,0,0.55);*/
+
+}
+
+
+#map-canvas {
+  position: absolute;
+  width: 65%;
+  height: 600px;
+  margin-left: 380px;
+  margin-right: auto;
+  margin-top: 20px;
+  border-radius: 17px;
+  margin-bottom: 180px;
+  border: 5px solid #8585AD;
+  padding: 20px;
+  box-shadow: 10px 10px 20px 10px rgba(0,0,0,0.55);
+
+
+}
+
+/*#rightsidebar {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  background-color: #9494B8;
+  border-radius: 17px;
+  border: 5px solid #8585AD;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 20px 20px 30px 20px rgba(0,0,0,0.55);
+  float: right;
+  margin-right: 30px;
+}*/
+
+#leftsidebar {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  background-color: #9494B8;
+  float: left;
+  border-radius: 17px;
+  border: 5px solid #8585AD;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 180px;
+  box-shadow: 20px 20px 30px 20px rgba(0,0,0,0.55);
+}
+
+#leftsidebar form {
+  text-align: center;
+  padding: 5px;
+  background-color: #8585AD;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1em;
+  margin: 10px;
+}
+
+#leftsidebar form input {
+  padding: 8px;
+  margin: 8px;
+}
+
+#leftsidebar h2 {
+  text-align: center;
+  /*padding: 5px;*/
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5em;
+
+}
+
+#leftsidebar button {
+  font-family: 'Megrim', cursive;
+  font-size: .4em;
+  background: #9494B8;
+  height:35px;
+  width:60px;
+  margin-top: 10px;
+}
+
+#leftsidebar button:hover {
+  background: #E0E0EB;
+  box-shadow: 3px 3px 5px 3px rgba(0,0,0,0.55);
+}
+
+#dest {
+  position: relative;
+  left: 15px;
+}
+
+#links {
+  position: relative;
+  left: 45px;
+}
+
+#footer {
+  height: 35px;
+  width: 100%;
+  background-color: #8585AD;
+}
+
+body {
+  background-image: url('http://wallpoper.com/images/00/44/77/64/flowing-paint_00447764.jpg');
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/*.popular li, .latest li {
+  display: inline-block;
+  width: 306px;
+  height: 306px;
+  margin: 0px 20px 20px 0px;
+}
+.popular, .latest {
+  width: 1004px;
+  margin: auto;
+}
+
+.pic_holder {
+      padding: 20px;
+      top:97%; // Or designate the px location if you so desire
+      width: 990px;
+      height: 390px;
+      margin-bottom: 15px;
+}
+*/
