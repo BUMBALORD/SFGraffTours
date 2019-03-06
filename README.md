@@ -1,5 +1,4 @@
 
-A student project for DevBootcamp SF, built in April of 2015.
 
 Utilizing the Google Maps API and the Intagram API, SFGraffTours will search for hashtags on photos in Instagram and pin their location to a map so that users can find the artwork in real life.
 
